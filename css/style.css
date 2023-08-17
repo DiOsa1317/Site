@@ -32,7 +32,7 @@ a {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;  /* разместить по центру */
     padding: 0 10px;
 }
@@ -48,7 +48,7 @@ a {
 /* Шапка */
 
 .header {
-    background-color: #d6d0fc;
+     background-color: #d6d0fc; 
     position: relative;
 }
 
@@ -152,9 +152,10 @@ a {
 }
 
 .subtitle {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 400;
-    max-width: 750px;
+    max-width: 800px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Subject page */
@@ -178,5 +179,67 @@ a {
 }
 
 .swiper-slide {
-    height:80vh;
+    height:70vh;
+    background: url("../images/background.jpg") center
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /* border-radius: 50px; */
+    
 }
+
+ .card {
+    padding: 30px 15px;
+    display: flex;
+    /* position: relative; */
+    justify-content: space-around;
+ }
+
+.photo {
+    /* padding: 15px 20px;
+    position: absolute; */
+    max-width: 800px;
+}
+
+.card-text {
+    padding-left: 40px;
+    color: #110437;
+    max-width: 1000px;
+}
+
+.name {
+    font-size: 70px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.year {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 9px;
+}
+
+.job {
+    font-size: 33px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 200;
+    padding-bottom: 30px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+

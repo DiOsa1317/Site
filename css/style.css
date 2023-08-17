@@ -6,6 +6,7 @@ html {
 html, 
 body {
     height: 100%; /* прибивка шапки и низа */
+    background-color: #d6d0fc;
 
 }
 
@@ -31,7 +32,7 @@ a {
 }
 
 .container {
-    max-width: 1220px;
+    max-width: 1400px;
     margin: 0 auto;  /* разместить по центру */
     padding: 0 10px;
 }
@@ -47,9 +48,8 @@ a {
 /* Шапка */
 
 .header {
-    max-width: 1220px;
     background-color: #d6d0fc;
-    position: absolute;
+    position: relative;
 }
 
 .header-main {
@@ -66,7 +66,7 @@ a {
 }
 
 .menu__list {
-    text-align: right;
+    text-align: left;
     display: flex;
     gap: 35px;
 }
@@ -76,10 +76,21 @@ a {
     text-transform: uppercase;
     font-weight: 700;
 }
+
 .logo__img {
+    min-width: 80px;
     max-width: 150px;
     text-transform: uppercase;
 }
+
+.logo {
+    min-width: 80px;
+    max-width: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #110437;
+}
+
 
 
 /* Bottom_links */
@@ -119,7 +130,6 @@ a {
 /* заставка */
 
 .top {
-    
     color: #110437;
     text-align: left;
     padding-top: 70px;
@@ -130,17 +140,21 @@ a {
     background-size: cover;
 }
 
+.top-main {
+    height: 80vh;
+}
+
 .title {
-    padding-bottom: 20px;
-    font-size: 96px;
+    padding-bottom: 17px;
+    font-size: 140px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .subtitle {
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 400;
-    max-width: 650px;
+    max-width: 750px;
 }
 
 /* Subject page */

@@ -180,13 +180,35 @@ a {
 
 .swiper-slide {
     height:70vh;
-    background: url("../images/background.jpg") center
+    background: url("../images/light.png") center
     no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     /* border-radius: 50px; */
+    /* background: rgba(255, 255, 255, 1); */
     
 }
+
+.swiper-pagination-bullet {
+    width: 100px;
+    height: 5px;
+    background-color: #5D7F92; 
+    border-radius: 0;
+    margin: 0 15px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #528CA0;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets
+.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 20px;
+}
+
 
  .card {
     padding: 30px 15px;

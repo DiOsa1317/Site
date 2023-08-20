@@ -408,6 +408,18 @@ a {
     margin-top: 40px;
 }
 
+.question_block {
+    max-width: 2000px;
+}
+
+.name_of_block {
+    padding-top: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #110437;
+    text-align: left;
+}
+
 .question_list {
     padding: 50px 0 50px;
     counter-reset: myCounter;
@@ -428,19 +440,7 @@ a {
     background-color: #6207E9;
     font-size: 10px;
     font-weight: 700;
-    width: 500px;
-    height: 10px;
-    border-radius: 3%;
-}
-
-question:after {
-    counter-increment: myCounter;
-    content: counter(myCounter);
-    display: inline-block;
-    background-color: #6207E9;
-    font-size: 10px;
-    font-weight: 700;
-    width: 500px;
+    width: 300px;
     height: 10px;
     border-radius: 3%;
 }

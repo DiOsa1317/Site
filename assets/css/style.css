@@ -145,7 +145,7 @@ a {
 }
 
 .top-main {
-    height: 80vh;
+    height: 100vh;
 }
 
 .title {
@@ -398,6 +398,10 @@ a {
 
 /* PERSON.HTML */
 
+.sbj__subtitle {
+    font-size: 40px;
+}
+
 /* interview */
 
 .interview {
@@ -413,7 +417,7 @@ a {
 }
 
 .name_of_block {
-    padding-top: 60px;
+    padding-top: 40px;
     font-size: 40px;
     text-transform: uppercase;
     color: #110437;
@@ -421,8 +425,9 @@ a {
 }
 
 .question_list {
-    padding: 50px 0 50px;
+    padding: 50px 0 20px;
     counter-reset: myCounter;
+    text-align: justify;
 }
 
 .question {
@@ -449,8 +454,34 @@ a {
     font-size: 25px;
     font-weight: 300;
     color: #110437;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
     text-indent: 50px;
+}
+
+.answer_p {
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #110437;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 50px;
+}
+
+.contact {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #6207E9;
+    /* text-align: left; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Адаптация */
+
+@media (max-width: 1180px) {
+    
 }
